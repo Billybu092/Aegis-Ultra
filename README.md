@@ -40,19 +40,25 @@ powershell -ExecutionPolicy Bypass -File .\Aegis-Ultra.ps1
 To install and prepare for automation:
 
 .\Install-AegisUltra.ps1
+```
+---
 
-🔐 Automation
+## 🔐 Automation
 
 Aegis Ultra can be scheduled to run at logical intervals using Windows Task Scheduler for continuous
 system visibility and hygiene.
 
-⚠️ Disclaimer
+---
+
+## ⚠️ Disclaimer
 
 Run at your own risk.
 This tool performs read-only audits by default and does not remove files or modify registry
 settings automatically.
 
-👤 Author
+---
+
+## 👤 Author
 
 BiLel Jelassi
 
