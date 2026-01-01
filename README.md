@@ -28,7 +28,7 @@ To download and prepare the engine, open PowerShell (as Administrator) and run:
 git clone https://github.com/Billybu092/Aegis-Ultra-v1.0.git
 
 # Enter the directory
-cd Aegis-Ultra v1.0
+cd Aegis-Ultra-v1.0
 
 # Run the official installer (Sets up folders and automation)
 .\Install-AegisUltra v1.0 .ps1
