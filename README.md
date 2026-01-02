@@ -1,23 +1,36 @@
 # 🛡️ Aegis Ultra v1.0 (Sovereign Forensic Edition)
 ### **Elite Windows Threat Hunting, Forensic Audit & System Hardening Engine**
-**Author:** Bilel Jelassi | **Engine:** PowerShell Core | **Version:** 3.0 (Ultimate)
+**Author:** Bilel Jelassi | **Engine:** PowerShell Core | **Version:** 1.0 (Ultimate)
 
 ---
 
-## 🔍 Overview
-Aegis Ultra is a high-performance forensic engine designed to move beyond simple system cleaning. It focuses on **Active Threat Hunting**, **Kernel-Level Integrity**, and **Forensic Visibility**. By auditing the "unseen" areas of Windows, it detects backdoors, persistence mechanisms, and hardware degradation that standard tools miss.
+🛡️ AEGIS ULTRA: SOVEREIGN FORENSIC ENGINE
+"Vigilantia et Integritas"
 
-## ✨ Why Aegis Ultra isn't "Basic"
-This engine performs deep-level forensic analysis typically reserved for Incident Response teams:
+Developed by Bilel Jelassi, Aegis Ultra is a high-performance, Zero-Trust forensic auditor designed to restore total sovereignty over the Windows operating system. It moves beyond simple "cleaning" to perform deep-state auditing of kernel integrity, network perimeters, and hardware health.
 
-* **Registry Stalking:** Automatically crawls `HKLM` and `HKCU` hives to expose programs hiding in auto-start entries where spyware typically resides.
-* **Shadow Admin Audit:** Scans the local Administrators group to find "God Mode" accounts that shouldn't be there, identifying potential privilege escalation.
-* **Malware Hunting (VirusTotal Integration):** Audits `System32` DLL digital signatures. If an unsigned or modified DLL is found, the engine queries the **VirusTotal API** to cross-reference the file hash with global threat intelligence.
-* **Port Listener Intelligence:** Maps active listeners to specific processes. It whitelists standard Windows services and flags unknown ports that often signify a backdoor or RAT (Remote Access Tool).
-* **Anti-Spoofing Engine:** Detects critical system processes (like `svchost.exe` or `lsass.exe`) running from unauthorized directories instead of `System32`.
-* **WMI Persistence Hunting:** Scans for hidden scripts in WMI Event Consumers—a common technique used by advanced persistent threats (APTs) to stay hidden.
-* **NVMe Health Analysis:** Performs S.M.A.R.T. health checks specifically optimized for high-performance SSDs to predict drive failure.
-* **Service Path Auditing:** Scans Windows services for suspicious executable paths outside of standard system directories.
+### 1.💎 Elite Forensic Phases
+Aegis Ultra executes a 10-phase security protocol to ensure no threat remains hidden:
+
+* Identity Audit: Validates digital signatures of core System32 DLLs to prevent hijacking.
+
+* Sovereign Check: Scans for "Shadow Administrators" with a whitelist for the owner (Billy_Pc).
+
+* Perimeter Audit: Maps network listeners to verified publisher signatures.
+
+* Persistence Hunt: Uncovers hidden scripts (PowerShell/CMD) in the Windows Task Scheduler.
+
+* WMI Stalking: Detects fileless "hooks" in the WMI Event Consumer database.
+
+* S.M.A.R.T. Telemetry: Direct hardware health analysis of NVMe/SSD wear levels.
+
+* Kernel Reconstruction: Automated SFC repair of corrupted OS "DNA" with a visual progress spinner.
+
+* Artifact Decimation: Purges system "Dropper" locations and temporary bloat.
+
+* Vulnerability Probe: Internal Nmap-style scan with CVE Intelligence (e.g., EternalBlue, BlueKeep).
+
+* Sovereignty Purge: Flushes DNS and resets the Winsock stack to kill malicious redirects.
 
 ---
 
@@ -31,7 +44,7 @@ You don't need to be an expert to understand Aegis Ultra. Here is the "Cheat She
 
 ---
 
-## 🚀 Setup & VirusTotal Integration
+## 🚀 Installation & Execution
 
 ### 1. Installation
 Run the following in an **Administrator PowerShell**:
@@ -47,26 +60,37 @@ cd Aegis-Ultra
 ```
 ----
 
-### 2. ⚡ Enabling Cloud Intelligence (Optional)
-To enable VirusTotal malware verification, you must set your API key as an environment variable. This professional practice keeps your key private and out of the source code:
+### 2. ⚡📊 Prestige UI & Reporting
 
-🔑 Get a free key from VirusTotal.com.
+Forensic Visualization: Clean, aligned terminal output with a high-density ASCII header.
 
-💻 Run this command in PowerShell:
+Coffee-Break Logic: Real-time feedback and spinners during long-duration scans (SFC/Nmap).
 
-[Environment]::SetEnvironmentVariable("VT_API_KEY", "YOUR_API_KEY_HERE", "User")
+Executive Summary: A magenta-signed forensic certificate generated at the end of every scan.
 
-🔄 Restart your terminal and run Aegis Ultra. It will now automatically perform cloud-verified audits.
+Sovereign Logs: Every action is timestamped and recorded for technical review in:
 
+Documents\SystemLogs\Aegis_Report_YYYYMMDD.log
 
-📊 Forensic Reporting
+---
+
+### 3. ⚖️ Philosophy
+
+This tool is built on the Zero-Trust Framework. It treats every background process, task, and network port as a potential threat until its identity is cryptographically verified. Unlike standard tools, Aegis Ultra does not rely on third-party APIs like VirusTotal, ensuring your data remains private and your audit remains local and stealthy.
+
+"The price of sovereignty is eternal vigilance."
+
+---
+
+### 4. 📊 Forensic Reporting
+
 Every scan generates a timestamped, color-coded report secured in:
 
 Documents\SystemLogs\Aegis_Forensic_Report_YYYYMMDD.log
 
 ---
 
-### 👤 Author
+### 5. 👤 Author
 
 ⭐ Bilel Jelassi 🛠️ IT Enthusiast 
 
