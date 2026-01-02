@@ -210,10 +210,11 @@ Write-Host "  │  [✓] KERNEL REPAIR: System files verified & repaired.       
 Write-Host "  │  [✓] HEALTH: Drive S.M.A.R.T. and WMI verified.              " -ForegroundColor Green
 Write-Host "  │  [✓] PRIVACY: System junk and DNS logs decimated.            " -ForegroundColor Green
 Write-Host "  │" -ForegroundColor Cyan
-Write-Host "  │  REPORT: $LogFile" -ForegroundColor Gray
+Write-Host "  |  REPORT: $LogFile" -ForegroundColor Gray
 Write-Host "  └──────────────────────────────────────────────────────────────┘" -ForegroundColor Cyan
 Write-Host "`n  Scan complete. Your Sovereignty has been restored." -ForegroundColor Cyan
 Write-Host "  Stay Secure, $($env:USERNAME). — Bilel Jelassi 🛡️`n" -ForegroundColor Magenta
 Write-Host ("=" * 72) -ForegroundColor Cyan
+
 
 
