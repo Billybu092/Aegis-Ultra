@@ -48,15 +48,20 @@ To enable VirusTotal malware verification, you must set your API key as an envir
 
 🔄 Restart your terminal and run Aegis Ultra. It will now automatically perform cloud-verified audits.
 
+
 📊 Forensic Reporting
 Every scan generates a timestamped, color-coded report secured in:
 
 Documents\SystemLogs\Aegis_Forensic_Report_YYYYMMDD.log
 
+
 👤 Author
 Bilel Jelassi 🛠️ IT Enthusiast 
 
+
 🔗 GitHub Profile
 
+
 ⚠️ Disclaimer
+
 Aegis Ultra is a forensic audit tool. Always review the code before execution in enterprise production environments.
