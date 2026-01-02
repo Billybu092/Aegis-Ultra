@@ -54,14 +54,16 @@ Every scan generates a timestamped, color-coded report secured in:
 
 Documents\SystemLogs\Aegis_Forensic_Report_YYYYMMDD.log
 
+---
 
-👤 Author
-Bilel Jelassi 🛠️ IT Enthusiast 
+### 👤 Author
 
+⭐ Bilel Jelassi 🛠️ IT Enthusiast 
 
-🔗 GitHub Profile
+🔗 GitHub Profile: https://github.com/Billybu092
 
+---
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 Aegis Ultra is a forensic audit tool. Always review the code before execution in enterprise production environments.
